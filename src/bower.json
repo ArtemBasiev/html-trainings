@@ -1,0 +1,25 @@
+{
+  "name": "static",
+  "description": "static html",
+  "main": "index.js",
+  "authors": [
+    "petelin.artem@gmail.com"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "jquery": "3.4.0",
+    "moment": "2.22.2",
+    "daterangepicker": "bootstrap-daterangepicker#v3.0.3",
+    "lodash": "4.17.11",
+    "masonry-layout": "^4.2.2"
+  }
+}

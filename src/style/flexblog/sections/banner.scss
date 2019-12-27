@@ -1,0 +1,48 @@
+.banner-container{
+    background-color: #f7f7f9;
+
+    img{
+        margin: auto;
+        width: 100%;
+        height: auto;
+        max-width: 520px;
+        max-height: 350px;
+    }    
+}
+
+
+.title-container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        padding: 0 40px 0 40px;
+        margin-bottom: 43px;
+        background-color: #000000;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 4.8px;
+    }
+
+    span{
+        color: #000000;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 24px;
+        text-transform: uppercase;
+        letter-spacing: 7.2px;
+    }
+
+    @media screen and (max-width: 640px)  {
+        span{
+            padding: 0 0 20px 20px;
+        }
+    }
+}
+
+    

@@ -1,0 +1,85 @@
+.smallteam{
+    padding-top: 120px;
+    padding-bottom: 125px;
+    text-align: center;
+
+    img{
+        width: 100%;
+        height: 440px;
+    }
+
+    .col-lg-4{
+        padding: 7px;
+        position: relative;
+        display: flex;
+
+        .about-crewman{
+            position: absolute;
+            width: 335px;
+            height: 241px;
+            box-shadow: 3px 6px 16px rgba(20, 20, 21, 0.18);
+            background-color: #6df6eb;
+            bottom: 21px;
+            left: 27px;
+            padding: 43px 54px 43px 38px;
+
+            .triangle {
+                position: absolute;
+                display: inline-block;
+                margin: 0 5px;
+                vertical-align: middle;
+                width: 30px;
+                height: 40px;
+                border-bottom: solid 60px #6df6eb;
+                border-left: solid 30px transparent;
+                border-right: solid 30px transparent;
+                top: -25px;
+                left: 1px;
+              }
+
+            h2{
+                margin: 0;
+                float: left;
+                color: #272727;
+                font-family: "Merriweather";
+                font-size: 20px;
+                font-weight: 700;
+                letter-spacing: 1px;
+            }
+            .position{
+                font-family: "Merriweather";
+                font-weight: 400;
+                font-style: italic;
+                letter-spacing: 0.45px;
+                color: #767070;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+            .definition{
+                display: block;
+                text-align: justify;
+                float: left;
+                color: #000000;
+                font-family: Raleway;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.16px;
+                padding: 23px 0 35px 0;
+            }
+
+            .crewman-socials{
+                float: left;
+            }
+
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .smallteam{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}

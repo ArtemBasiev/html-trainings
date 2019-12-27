@@ -1,0 +1,21 @@
+.featured{
+    padding-top: 120px;
+    padding-bottom: 125px;
+    text-align: center;
+
+    img{
+        width: 100%;
+        height: 360px;
+    }
+
+    .col-lg-4{
+        padding: 7px;
+    }
+}
+
+@media (max-width: 768px) {
+    .featured{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}

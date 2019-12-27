@@ -1,0 +1,31 @@
+.main-container{
+    h1 {
+        color: #000000;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 28px;
+        text-transform: uppercase;
+        letter-spacing: 2.28px;
+    }
+}
+
+
+.description{
+    margin-top: 17px;
+    margin-bottom:  120px;
+    display: block;
+    color: #676868;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1.08px;
+}
+
+@media (max-width: 768px) {
+    .description{
+        margin-bottom: 40px;
+    }
+}
+

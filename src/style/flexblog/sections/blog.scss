@@ -1,0 +1,116 @@
+.blog-container{
+    background-color: #fafafa;
+}
+
+.blog{
+    padding: 70px 0 100px 0;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 640px)  {
+    .blog{
+        justify-content: center;
+    }
+}
+
+.blog-column{
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    min-width: 300px;
+    flex: 1 1 calc(30% - 10px);
+}
+
+.blog-plate{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 33px;
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    .blog-description{
+        padding: 30px 40px 40px 45px;
+        background-color: #ffffff;
+
+        .tag{
+            background-color: #000000;
+            color: #ffffff;
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 18px;
+            text-transform: uppercase;
+            padding: 9px 16px 9px 16px;
+            margin-bottom: 30px;
+            border-radius: 3px;
+        }
+
+        h2{
+            color: #000000;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 30px;
+            display: block;
+        }
+
+        .author{
+            font-family: Roboto;
+            color: #cccccc;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 30px;
+            margin-bottom: 25px;
+
+            i{
+                margin-right: 6px;
+            }
+
+        }
+
+        .content-text{
+            font-weight: 400;
+            line-height: 24px;
+            font-size: 14px;
+            color: #333333;
+            line-height: 24px;
+        }
+
+
+        .bottom-panel{
+            display: flex;
+            margin-top: 45px;
+            justify-content: space-between;
+        }
+
+        .date{
+            color: #9a9a9a;
+            font-family: Roboto;
+            font-size: 13px;
+            line-height: 24px;
+            font-family: "Roboto";
+            font-weight: 400;
+            i{
+                margin-right: 6px;
+            }
+
+        }
+
+        .actions{
+            color: #cccccc;
+            i{
+                margin-left: 20px;
+            }
+            a:hover{
+                color: #000000;
+            }
+        }
+
+    }
+
+}
